@@ -1,5 +1,7 @@
 import React from 'react';
 import Routes from './routes';
+import { Helmet } from 'react-helmet';
+
 
 
 import './assets/styles/reset.css';

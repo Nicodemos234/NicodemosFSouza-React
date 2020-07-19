@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 
 import './styles.css';
@@ -10,7 +11,11 @@ import Twitter from '../../assets/images/social/twitter.png';
 import Youtube from '../../assets/images/social/youtube.png';
 
 const Home = () => (
+    
     <div className="home-content fill-avaliable center center-elements">
+        <Helmet>
+          <title>Nicodemos - Página Inicial</title>
+        </Helmet>
         <div className="content">
             <h1>Seja bem-vindo</h1>
             <p>Olá, meu nome é Nicodemos, tenho 18
