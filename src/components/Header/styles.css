@@ -1,7 +1,7 @@
 .main-header {
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -15,6 +15,7 @@
 
 .main-header li {
     padding: 5px;
+    margin: 0px 20px;
     
 }
 
