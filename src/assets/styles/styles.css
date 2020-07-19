@@ -3,6 +3,9 @@ body {
     background: #282A36;
     color: #BCC2CD;
     font-family: 'Ubuntu', sans-serif;
+    background-image: url("/background.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 h1 {
