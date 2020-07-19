@@ -1,0 +1,21 @@
+.home-content p {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 16px;
+}
+
+.home-content img {
+    max-width: 398px;
+}
+
+.home-content .content img {
+    max-width: 40px;
+    margin-right: 15px;
+}
+
+.home-content .content div {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 16px;
+}

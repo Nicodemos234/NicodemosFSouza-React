@@ -1,0 +1,29 @@
+.main-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-header ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin: 10px 20px 10px;
+    list-style: none;
+}
+
+.main-header li {
+    padding: 5px;
+    
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #BCC2CD;
+    font-size: 20px;
+}
+
+.main-header .active {
+    color: #BD93F9;
+}
