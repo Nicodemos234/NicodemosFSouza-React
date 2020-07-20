@@ -19,15 +19,21 @@
     outline: 0;
 }
 
+.contact-page textarea {
+    resize: none;
+    min-height: 100px;
+}
+
 .contact-page button {
+    margin: 10px 0;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    padding: 5px;
+    padding: 10px 5px;
     border-radius: 10px;
-    color: none;
+    color: #eee;
     border: 0;
-    background-color: #BD93F9;
+    background-color: #FF2521;
     cursor: pointer;
     transition: all .2s;
 }
