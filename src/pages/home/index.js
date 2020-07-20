@@ -14,7 +14,7 @@ const Home = () => (
     
     <div className="home-content fill-avaliable center center-elements">
         <Helmet>
-          <title>Nicodemos - Página Inicial</title>
+          <title>Nicodemos</title>
         </Helmet>
         <div className="content">
             <h1>Seja bem-vindo</h1>
